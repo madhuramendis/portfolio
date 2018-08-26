@@ -1,13 +1,13 @@
 @font-face {
     font-family: "PTF-NORDIC-Rnd";
-    src: local("PTF-NORDIC-Rnd"), url("/mcm-fonts/PTF-NORDIC-Rnd.woff");
-    src: local("PTF-NORDIC-Rnd"), url("/mcm-fonts/PTF-NORDIC-Rnd.woff") format("embedded-opentype"), url("/mcm-fonts/PTF-NORDIC-Rnd.woff") format("woff");
+    src: local("PTF-NORDIC-Rnd"), url("mcm-fonts/PTF-NORDIC-Rnd.woff");
+    src: local("PTF-NORDIC-Rnd"), url("mcm-fonts/PTF-NORDIC-Rnd.woff") format("embedded-opentype"), url("/mcm-fonts/PTF-NORDIC-Rnd.woff") format("woff");
 }
 
 
 
 body {
-    background-image: url("/images/bg.jpg");
+    background-image: url("images/bg.jpg");
 background-position: center top;
 background-repeat: repeat;
 
@@ -111,9 +111,14 @@ background-repeat: repeat;
         display: none;
     }
     
-    .title__title , .header__logo  , ul.wil-menu-list li a , .work__title  {
+    .title__title , .header__logo  , ul.wil-menu-list li a , .work__title , h2 {
          font-family: "PTF-NORDIC-Rnd", sans-serif;
          
+    }
+    h2 {
+        font-size: 44px;
+margin-top: 0 !important;
+line-height: 42px;
     }
     
     .header__logo  , ul.wil-menu-list li a  {
@@ -126,10 +131,26 @@ background-repeat: repeat;
     }
     
     h1.title__title {
-        font-size: 100px;
-        color: #ffffff;
+        font-size: 130px;
+
+color: #ffffff;
+
+line-height: 130px;
     }
     
     .header__logo a span {
         color: #046da9;
     }
+    .row.cTitleRow {
+        margin-bottom: 40px;
+    }
+    
+    .cTitleContainer , .cDescriptionContainer , .cImageContainer {
+        padding: 0;
+    }
+    .cImageContainer {
+        margin-top: 50px;
+    
+    } 
+    
+    

@@ -239,7 +239,7 @@ a {
 }
 
 a:hover {
-    text-decoration: line-through;
+/*    text-decoration: line-through;*/
     color: #036ca9;
 }
 
@@ -271,8 +271,8 @@ a:focus {
 
 @media (min-width: 1200px) {
     .awe-section {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 120px;
+        padding-bottom: 40px;
     }
 }
 
@@ -314,7 +314,7 @@ hr {
 .md-btn:hover {
     background-color: #ebebeb;
     color: #000;
-    text-decoration: line-through;
+/*    text-decoration: line-through;*/
 }
 
 .md-btn[disabled] {
@@ -957,7 +957,7 @@ ul {
 
 .overlay-menu ul li.active > a, .overlay-menu ul li a:hover {
 /*    color: #036ca9;*/
-    text-decoration: line-through;
+/*    text-decoration: line-through;*/
 }
 
 .fs-button {
@@ -2211,7 +2211,7 @@ ul {
 --------------------------------------------------------------------------------*/
 
 .title {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .title__title {
@@ -2308,7 +2308,7 @@ ul {
 }
 
 .work-detail__entry .work-img {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 /* 19. work
